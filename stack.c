@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	char choice;
 	int data;
 	
-	printf("1.Push\n2.Pop\n3.Display\n");
+	printf("1.Push\n2.Pop\n3.Display\n4.find_smallest_element\n5.exit application\n");
 	
 	printf("enter your choice\n");
 	
@@ -41,7 +41,8 @@ int main(int argc, char *argv[]) {
 			
 			case '4':smallest_element();
 			         break;
-			
+                        case '5': printf("thank you for using my service, exiting application\n");
+                                 exit(0);			
 			default:printf("enter your choice\n");
 			        break;
 			
